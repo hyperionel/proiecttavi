@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="proiect.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <title>My E-Magazine</title>
+</head>
+<body>
+    <nav class="bar">
+        <div class="container">
+            <div class="logo">
+                <a href="proiect.html">
+                    <img src="logo-magazinul-evei.png" alt="logo">
+                </a>
+            </div>
+            <div class="meniu">
+                <div class="cautare">
+                    <input type="search" class="cautare2" name="caut" id="caut">
+                    <a class="btn" href="#" id="caut2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a class="btn" href="#" id="btlista">
+                            <i class="fa-sharp fa-solid fa-lines-leaning">Produse</i>
+                        </a>
+                        <ul class="ascuns" id="listamea">
+                            <a href="procesoare.html" class="btn2">Procesoare</a>
+                            <a href="placi video.html" class="btn2">Placi video</a>
+                            <a href="coolere.html" class="btn2">Coolere</a>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="btn" href="cos.html">
+                            <i class="fa-solid fa-cart-shopping">Cosul meu</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="despre.html">
+                            <i class="fa-solid fa-circle-info">Despre noi</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="login.html">
+                            <i class="fas fa-user">Cont</i>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+<section class="produse">
+    <div class="container">
+       <h1> Produse</h1>
+       <div class="filtru">
+        <p>Tip:</p>
+        <ul>
+            <li>
+                <a href="#" id="Amdbt">Amd</a>
+            </li>
+            <li>
+                <a href="#" id="Nvidiabt">Nvidia</a>
+            </li>
+            <li>
+                <a href="#" id="Ambelebt">Ambele</a>
+            </li>
+        </ul>
+</div>
+        <div class="meniu">
+            <ul>
+                <li class="Nvidia 1">
+<p>Placa video EVGA GeForce RTX 3050 XC GAMING 8GB GDDR6 128-bit</p>
+<p class="taiat">1.250 Lei</p>
+<p>1.050 Lei</p>
+<a class="btn btn-produs" href="#" >
+    <i class="fa-solid fa-cart-shopping">Adauga in cos</i>
+</a>
+<img src="Placa video EVGA GeForce RTX 3050 XC GAMING 8GB GDDR6 128-bit.jpg" alt="imgp">
+
+                </li>
+                <li class="Nvidia 2">
+                    <p>Placa video ASUS ROG Strix GeForce RTX 4080, 16GB GDDR6X, 256bit, ROG-STRIX-RTX4080-O16G
+                    </p>
+                    <p>6.250 Lei</p>
+                    <a class="btn btn-produs" href="#" onclick="addtoCart('5', 'Placa video ASUS ROG Strix GeForce RTX 4080', 6250, 'Placa video ASUS ROG Strix GeForce RTX 4080, 16GB GDDR6X, 256bit, ROG-STRIX-RTX4080-O16G.jpg')">
+                        <i class="fa-solid fa-cart-shopping">Adauga in cos</i>
+                    </a>
+                    <img src="Placa video ASUS ROG Strix GeForce RTX 4080, 16GB GDDR6X, 256bit, ROG-STRIX-RTX4080-O16G.jpg" alt="imgp">
+                    
+                </li>
+                <li class="Amd 3">
+                    <p>Placa video ASUS TUF Gaming Radeon™ RX 6800 XT GAMING OC, 16GB GDDR6, 256-bit</p>
+                    <p>3.150 Lei</p>
+                    <a class="btn btn-produs" href="#">
+                        <i class="fa-solid fa-cart-shopping">Adauga in cos</i>
+                    </a>
+                    <img src="Placa video ASUS TUF Gaming Radeon™ RX 6800 XT GAMING OC, 16GB GDDR6, 256-bit.jpg" alt="imgp">
+                    
+                </li>
+                <li class="Amd 4">
+                    <p>Radeon RX 7900 XTX GAMING OC 24GB GDDR6 384bit (GV-R79XTXGAMING OC-24GD)</p>
+                    <p>6.150 Lei</p>
+                    <a class="btn btn-produs" href="#">
+                        <i class="fa-solid fa-cart-shopping">Adauga in cos</i>
+                    </a>
+                    <img src="Radeon RX 7900 XTX GAMING OC 24GB GDDR6 384bit (GV-R79XTXGAMING OC-24GD).jpg" alt="imgp">
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <script src="placi video.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="proiect.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <title>My E-Magazine</title>
+</head>
+<body>
+    <nav class="bar">
+        <div class="container">
+            <div class="logo">
+                <a href="proiect.html">
+                    <img src="logo-magazinul-evei.png" alt="logo">
+                </a>
+            </div>
+            <div class="meniu">
+                <div class="cautare">
+                    <input type="search" class="cautare2" name="caut" id="caut">
+                    <a class="btn" href="#" id="caut2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a class="btn" href="#" id="btlista">
+                            <i class="fa-sharp fa-solid fa-lines-leaning">Produse</i>
+                        </a>
+                        <ul class="ascuns" id="listamea">
+                            <a href="procesoare.html" class="btn2">Procesoare</a>
+                            <a href="placi video.html" class="btn2">Placi video</a>
+                            <a href="coolere.html" class="btn2">Coolere</a>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="btn" href="cos.html">
+                            <i class="fa-solid fa-cart-shopping">Cosul meu</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="despre.html">
+                            <i class="fa-solid fa-circle-info">Despre noi</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="login.html">
+                            <i class="fas fa-user">Cont</i>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container"> 
+        <h1>Login Page</h1> 
+        <form method="post" 
+              action="login.php"> 
+            <label for="username">Username:</label> 
+            <input type="text" 
+                   id="username" 
+                   name="username" required> 
+  
+            <label for="password">Password:</label> 
+            <input type="password" 
+                   id="password" 
+                   name="password" required> 
+  
+            <input type="submit" 
+                   value="Login"> 
+        </form> 
+        <br><br> 
+        <p> Does not have an account? 
+            <a href="/proiect/register.html">Click Here</a> 
+        </p> 
+    </div>
+    <script src="proiect.js"></script>
+</body>
+</html>
